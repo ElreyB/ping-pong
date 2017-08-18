@@ -14,11 +14,14 @@ _This page will count up to your number from 1 with the following exceptions:_
 
 ## Specs
 
-
+![specs](https://user-images.githubusercontent.com/20192033/29470139-0c639dbc-8400-11e7-9aa0-c9f26d49cc96.png)
 
 ## Setup/Installation Requirements
 
-* _Clone this repository_
+* _Clone this repository_ 
+
+![clone](https://user-images.githubusercontent.com/20192033/29469981-709df288-83ff-11e7-9147-a9b55c6f8f27.png)
+
 * _In your terminal type "git clone (repository url)_
 * _Click on the index.html file to open in your updated browser of choice_
 

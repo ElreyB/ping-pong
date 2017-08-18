@@ -73,3 +73,8 @@ p {
   display: none;
   font-size: 30px;
 }
+
+.img-small {
+  padding-left: 10px;
+  padding-right: 10px;
+}

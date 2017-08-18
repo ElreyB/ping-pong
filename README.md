@@ -18,16 +18,25 @@ _This page will count up to your number from 1 with the following exceptions:_
 
 ## Setup/Installation Requirements
 
-* _Clone this repository_ 
+* _Clone this repository_
 
 ![clone](https://user-images.githubusercontent.com/20192033/29469981-709df288-83ff-11e7-9147-a9b55c6f8f27.png)
 
 * _In your terminal type "git clone (repository url)_
 * _Click on the index.html file to open in your updated browser of choice_
 
-## Known Bugs
+## Known Bugs 🐛 🐛 🐛
 
-No known bugs 🐛 🐛 🐛
+_If you do not enter a number the background of the field with turn yellow and a message will appear tell you to enter a number._
+
+_After you enter a number the yellow background will not go away even if you click the "Clear Number" button._
+
+
+#### After clicking "Clear Number"
+
+
+_However, it will clear after you click on the "Clear Ping-Pong" button.
+
 
 ## Support and contact details
 

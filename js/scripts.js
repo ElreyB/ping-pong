@@ -40,9 +40,10 @@ $(document).ready(function(){
     showpanel(1, "ol");
   });
 
-  $("#clear").click(function(event){
+  $(".clear").click(function(event){
     event.preventDefault();
     $("ul").empty();
     $(".well").hide();
+    $("input").removeClass("error");
   });
 });

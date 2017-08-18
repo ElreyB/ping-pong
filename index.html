@@ -10,16 +10,16 @@
   <body>
     <div class="container">
       <div class="page-header">
-        <h1>Ping-Pong 🏓 🏓 🏓<small>Created by: Elrey Belmonti</small></h1>
+        <h1>Ping-Pong<img src="img/ping_small.png" alt="small ping-pong paddel"><img src="img/pong_small.png" alt="small ping-pong paddel"><img src="img/ping_small.png" alt="small ping-pong paddel"><img src="img/pong_small.png" alt="small ping-pong paddel"><small>Created by: Elrey Belmonti</small></h1>
       </div>
       <div class="jumbotron">
         <h2>Let's play!</h2>
         <h3>Rules:</h3>
         <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
         <ol id="list">
-          <li>Numbers divisible by 3 become "🏓 "</li>
-          <li>Numbers divisible by 5 become "🏓 "</li>
-          <li>Numbers divisible by 3 and 5 become "🏓  🏓 "</li>
+          <li>Numbers divisible by 3 become "<img src="img/ping_small.png" alt="small ping-pong paddel">"</li>
+          <li>Numbers divisible by 5 become "<img src="img/pong_small.png" alt="small ping-pong paddel">"</li>
+          <li>Numbers divisible by 3 and 5 become "<img src="img/ping_small.png" alt="small ping-pong paddel"><img src="img/pong_small.png" alt="small ping-pong paddel">"</li>
         </ol>
         <form id="ping-pong-form">
           <div class="form-group">
@@ -27,8 +27,8 @@
             <input type="number" class="form-control" id="number" min="1" step="0.1">
           </div>
           <button type="submit" class="btn" id="submit">Ping Pong</button>
-          <button type="reset" class="btn">Clear Number</button>
-          <button class="btn" id="clear">Clear Ping-Poing</button>
+          <button type="reset" class="btn clear">Clear Number</button>
+          <button class="btn clear">Clear Ping-Poing</button>
         </form>
       </div>
 

@@ -1,0 +1,4 @@
+ul#list > li {
+  display: none;
+  list-style-type: none;
+}

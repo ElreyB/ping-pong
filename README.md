@@ -27,15 +27,27 @@ _This page will count up to your number from 1 with the following exceptions:_
 
 ## Known Bugs 🐛 🐛 🐛
 
-_If you do not enter a number the background of the field with turn yellow and a message will appear tell you to enter a number._
+_If you do not enter a number the background of the field with turn yellow and a message will appear telling you to enter a number._
+
+
+![bug1](https://user-images.githubusercontent.com/20192033/29480956-6516145e-8431-11e7-8edc-697459afdbbb.png)
+
 
 _After you enter a number the yellow background will not go away even if you click the "Clear Number" button._
+
+
+![bug2](https://user-images.githubusercontent.com/20192033/29481003-c89512f0-8431-11e7-82a1-8f6abbb45825.png)
 
 
 #### After clicking "Clear Number"
 
 
+![bug3](https://user-images.githubusercontent.com/20192033/29481006-cb6e5a0e-8431-11e7-9049-7fa8251c306d.png)
+
+
 _However, it will clear after you click on the "Clear Ping-Pong" button.
+
+![bug4](https://user-images.githubusercontent.com/20192033/29481011-d10601d8-8431-11e7-8d3b-2820d268255a.png)
 
 
 ## Support and contact details

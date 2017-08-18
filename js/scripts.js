@@ -19,6 +19,10 @@ $(document).ready(function(){
     for (i = 1; i <= userInput; i++){
       appendResult(i);
     }
+  });
 
+  $("#reset").click(function(event){
+    event.preventDefault();
+    $("ul").empty();
   });
 });

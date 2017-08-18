@@ -17,10 +17,17 @@ $(document).ready(function(){
     event.preventDefault();
     var userInput = parseInt($("input#number").val());
 
+      if (isNaN(userInput)){
+        $("input").addClass("error");
+        $("p").fadeToggle(3500,function() {
+          $("p, .well").hide();
+        });
+      }
+
+
     for (i = 1; i <= userInput; i++){
       appendResult(i);
     }
-
     $(".well").show();
 // animation http://jsfiddle.net/adeneo/ft9tb2cb/
     (function showpanel(i, elems) {

@@ -64,3 +64,12 @@ input#number.form-control {
   width: 10%;
   display: inline-block;
 }
+
+.error {
+  background-color: yellow;
+}
+
+p {
+  display: none;
+  font-size: 30px;
+}

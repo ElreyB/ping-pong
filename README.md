@@ -12,6 +12,10 @@ _This page will count up to your number from 1 with the following exceptions:_
 2. _Numbers divisible by 5 become "pong"_
 3. _Numbers divisible by 3 and 5 become "pingpong"_
 
+## Specs
+
+
+
 ## Setup/Installation Requirements
 
 * _Clone this repository_

@@ -21,7 +21,7 @@ $(document).ready(function(){
     }
   });
 
-  $("#reset").click(function(event){
+  $("#clear").click(function(event){
     event.preventDefault();
     $("ul").empty();
   });

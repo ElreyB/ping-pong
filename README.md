@@ -14,7 +14,7 @@ _This page will count up to your number from 1 with the following exceptions:_
 
 ## Specs
 
-![specs](https://user-images.githubusercontent.com/20192033/29470139-0c639dbc-8400-11e7-9aa0-c9f26d49cc96.png)
+![specs](https://user-images.githubusercontent.com/20192033/29470347-dd77f178-8400-11e7-9d32-98dca772efb7.png)
 
 ## Setup/Installation Requirements
 

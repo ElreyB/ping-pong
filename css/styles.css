@@ -1,4 +1,66 @@
 ul#list > li {
   display: none;
   list-style-type: none;
+  text-align: center;
+  font-size: 200px;
+}
+
+h1 small {
+  font-size: 16.5px;
+}
+
+.page-header {
+  text-align: center;
+  background-color: #bf1318;
+  border-radius: 10px;
+  padding-top: 1px;
+  opacity: 0.95;
+}
+
+.img-rounded {
+  height: 242px;
+  width: 242px;
+}
+
+.well {
+  display: none;
+  width: 600px;
+  display: block;
+  display: block;
+  margin: auto;
+  display: none;
+  list-style-type: none;
+  text-align: center;
+  font-size: 200px;
+  background-color: #bf1318;
+  opacity: 0.95;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #082d59;
+}
+
+.jumbotron {
+  background-color: #bf1318;
+  opacity: 0.95;
+  padding-top: 7px;
+  padding-bottom: 13px;
+}
+
+h1 small {
+  color: #0b4689;
+}
+
+input {
+  width: 200px;
+}
+
+input#number.form-control {
+  width: 10%;
+  display: inline-block;
 }

@@ -1,12 +1,12 @@
 function appendResult(result){
   if ((result % 3 === 0) && (result % 5 === 0)){
-    return $(".results").append('<li class="animation"><div id="frame"><img src="img/ping.png" alt="black ping-pong paddel" class="img-rounded"><img src="img/pong.png" alt="black ping-pong paddel" class="img-rounded"></div></li>');
+    return $(".results").append(`<li><div><img src="img/ping.png" alt="black ping-pong paddel" class="img-rounded"><img src="img/pong.png" alt="black ping-pong paddel" class="img-rounded"></div></li>`);
   } else if (result % 5 === 0){
-    return $(".results").append('<li class="animation"><div id="frame"><img src="img/pong.png" alt="black ping-pong paddel" class="img-rounded"></div></li>');
+    return $(".results").append(`<li><div><img src="img/pong.png" alt="black ping-pong paddel" class="img-rounded"></div></li>`);
   } else if (result % 3 === 0){
-    return $(".results").append('<li class="animation"><div id="frame"><img src="img/ping.png" alt="black ping-pong paddel" class="img-rounded"></div></li>');
+    return $(".results").append(`<li><div><img src="img/ping.png" alt="black ping-pong paddel" class="img-rounded"></div></li>`);
   } else {
-    return $(".results").append('<li class="animation"><div id="frame">' + String(result) + '</div></li>');
+    return $(".results").append(`<li><div>${result}</div></li>`);
   }
 }
 

@@ -10,7 +10,13 @@ function appendResult(result){
   }
 }
 
-
+// animation http://jsfiddle.net/adeneo/ft9tb2cb/
+function showpanel(index, elements) {
+  index = index === elements.length-1 ? 0 : index+1;
+  elements.eq(index).show(1).delay(1000).hide(1, function() {
+      showpanel(index, elements);
+  });
+}
 
 $(document).ready(function(){
   $("form#ping-pong-form").submit(function(event){
@@ -24,20 +30,12 @@ $(document).ready(function(){
         });
       }
 
-
     for (i = 1; i <= userInput; i++){
       appendResult(i);
     }
     $(".well").show();
-// animation http://jsfiddle.net/adeneo/ft9tb2cb/
-    (function showpanel(i, elems) {
-        i = i === elems.length-1 ? 0 : i+1;
-        elems.eq(i).show(1).delay(1000).hide(1, function() {
-            showpanel(i, elems);
-        });
-    })(-1, $("ul#list > li"));
 
-    showpanel(1, "ol");
+    showpanel(-1, $("ul#list > li"));
   });
 
   $(".clear").click(function(event){
